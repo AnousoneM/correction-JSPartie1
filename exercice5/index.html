@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 5 - Partie 1 JS</title>
+</head>
+
+<body>
+    <h1>Exercice 5 - Partie 1 JS</h1>
+    <p>Demander deux nombres à un utilisateur. Les additionner et les afficher avec une phrase rappelant le calcul dans la console.</p>
+
+    <script>
+        let nb1 = prompt('Veuillez entrer un premier nombre :');
+        let nb2 = prompt('Veuillez entrer un deuxieme nombre :');
+        // Utilisation de console.log() pour afficher le résultat dans la console du navigateur.
+        // Nous utlisons Number() pour transformer les valeurs en nombre car un prompt récupère toujour des strings.
+        // Puis nous effectuons une addition classique à l'aide de + .
+        console.log(nb1 + ' + ' + nb2 + ' = ' + (Number(nb1) + Number(nb2)));
+    </script>
+</body>
+
+</html>

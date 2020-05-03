@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 4 - Partie 1 JS</title>
+</head>
+
+<body>
+    <h1>Exercice 4 - Partie 1 JS</h1>
+    <p>Demander, à l'aide de boîtes de dialogues, le <b>nom</b>, l'<b>âge</b>âge et la <b>ville</b> d'un utilisateur. Afficher ses réponses dans une boîte de dialogue.</p>
+
+    <script>
+        // Utilisation de window.prompt() pour inviter l'utilisateur à entrer une valeur.
+        // Nous la stockons dans une variable pour faciliter l'utilisation par la suite : Penser à bien nommer vos variables.
+        let name = window.prompt('Quel est votre nom ?'); 
+        let age = window.prompt('Quel est votre âge ?');
+        let city = window.prompt('Quel est le nom de de votre ville ?');
+
+        window.alert('Nom : ' + name + '\nAge : ' + age + '\nVille : '+ city); // Utilisation de \n pour faire un retour à la ligne dans une alerte
+    </script>
+</body>
+
+</html>
